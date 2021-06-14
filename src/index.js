@@ -5,8 +5,8 @@ Pull requests
 Issues
 Marketplace
 Explore
- 
-@Marwawd 
+
+@Marwawd
 Marwawd
 /
 jsdom-toy-tale-rcdd_202103_leb_few
@@ -28,7 +28,7 @@ Latest commit df83bfd on Mar 10
  5 contributors
 @aalexander3@RonRicardo@maxwellbenton@lizbur10@jonashaefele
 102 lines (86 sloc)  2.36 KB
-  
+
 const addBtn = document.querySelector('#new-toy-btn')
 const toyForm = document.querySelector('.container')
 let addToy = false
@@ -131,4 +131,3 @@ getToys().then(toys => {
     renderToys(toy)
   })
 })
-
